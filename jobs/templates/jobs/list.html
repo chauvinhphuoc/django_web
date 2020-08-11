@@ -1,0 +1,10 @@
+<h3>There are {{ jobs.count }} jobs</h3>
+
+
+{% for job in jobs %}
+<div>
+    <ul>
+        <li>{{ job.title }} - opened on {{ job.time }}<a href="{{ job.url }}"> detail</a></li>
+    </ul>
+</div>
+{% endfor %}
