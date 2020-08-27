@@ -1,1 +1,1 @@
-Build Django Website Application with SQLie3
+Build Django Website Application with SQLite3
